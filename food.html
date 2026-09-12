@@ -16,6 +16,13 @@
 
     <h1>🍜 Travel Food!</h1>
 
+    <button onclick="showPopup()">Click for a Food Fact!</button>
+
+    <div id="popup">
+        <p>🍜 Fun fact: Smørrebrød is a traditional Danish open-faced sandwich!</p>
+        <button onclick="closePopup()">Close</button>
+    </div>
+
     <h2>Denmark</h2>
     <p>
         I liked the food because it was delicious and satisfying.
@@ -33,9 +40,20 @@
         I liked the food because the food truck made warm, delicious tacos,
         and I also enjoyed fajitas.
     </p>
-    <img src="images/Screenshot_20260910_172018_Messenger.webp" alt="Mexico food"> 
+
+    <img src="images/Screenshot_20260910_172018_Messenger.webp" alt="Mexico food">
     <img src="images/Screenshot_20260910_172032_Messenger.webp" alt="Mexico food">
-     
+
+    <script>
+        function showPopup() {
+            document.getElementById("popup").style.display = "block";
+        }
+
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
+
 </body>
 
 </html>
