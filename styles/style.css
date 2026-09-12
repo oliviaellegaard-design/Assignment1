@@ -56,3 +56,41 @@ body {
         transform: rotate(10deg);
     }
 }
+.flower-frame {
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    background-color: #ffd6e7;
+
+    border: 12px solid transparent;
+    border-radius: 20px;
+
+    box-shadow:
+        0 0 0 5px white,
+        0 0 20px pink;
+
+    position: relative;
+}
+
+.flower-frame::before {
+    content: "🌸 🌷 🌼 🌸 🌷 🌼 🌸";
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.flower-frame::after {
+    content: "🌼 🌸 🌷 🌼 🌸 🌷 🌼";
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+.flower-frame img {
+    display: block;
+    max-width: 100%;
+    border: 5px solid white;
+    border-radius: 10px;
+}
