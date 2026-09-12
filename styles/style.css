@@ -56,20 +56,19 @@ body {
         transform: rotate(10deg);
     }
 }
+
+/* Flower picture frame */
 .flower-frame {
     display: inline-block;
     padding: 15px;
     margin: 20px;
     background-color: #ffd6e7;
-
     border: 12px solid transparent;
     border-radius: 20px;
 
     box-shadow:
         0 0 0 5px white,
         0 0 20px pink;
-
-    position: relative;
 }
 
 .flower-frame::before {
