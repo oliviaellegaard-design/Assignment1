@@ -1,0 +1,39 @@
+<h2>🗺️ Places I've Been</h2>
+
+<div class="travel-map">
+
+    <button class="map-pin denmark" onclick="showPlace('Denmark')">
+        📍 🇩🇰
+    </button>
+
+    <button class="map-pin japan" onclick="showPlace('Japan')">
+        📍 🇯🇵
+    </button>
+
+    <button class="map-pin mexico" onclick="showPlace('Mexico')">
+        📍 🇲🇽
+    </button>
+
+</div>
+
+<p id="mapMessage">Click a pin to learn more!</p>
+
+<script>
+    function showPlace(place) {
+        let message = "";
+
+        if (place === "Denmark") {
+            message = "🇩🇰 Copenhagen, Denmark — one of my favorite places to visit!";
+        }
+
+        if (place === "Japan") {
+            message = "🇯🇵 Japan — I love the food, culture, scenery, and cities!";
+        }
+
+        if (place === "Mexico") {
+            message = "🇲🇽 Mexico — beautiful beaches, culture, food, and history!";
+        }
+
+        document.getElementById("mapMessage").innerHTML = message;
+    }
+</script>

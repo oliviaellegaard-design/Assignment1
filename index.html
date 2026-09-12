@@ -12,7 +12,7 @@
 
     <nav>
         <a href="index.html">🏠 Home</a>
-        <a href="destinations.html">🌎 Destinations</a>
+        <a href="destinations.html">✈️ Travel With Me</a>
         <a href="food.html">🍜 Food</a>
     </nav>
 
@@ -24,12 +24,14 @@
         from around the world.
     </p>
 
-    <img src="images/Screenshot_20260910_171717_Messenger.webp"
-         alt="Travel destination">
+    <div class="flower-frame">
+        <img src="images/Screenshot_20260910_171717_Messenger.webp"
+             alt="Travel destination">
+    </div>
 
     <h2>Explore My Website</h2>
 
-    <h3>🌎 Travel Destinations</h3>
+    <h3>✈️ Travel With Me</h3>
 
     <p>
         Learn about Copenhagen, Japan, and Mexico and some of the
@@ -37,7 +39,7 @@
     </p>
 
     <p>
-        <a href="destinations.html">View My Travel Destinations</a>
+        <a href="destinations.html">Explore Travel With Me</a>
     </p>
 
     <h3>🍜 Travel Food</h3>
@@ -54,34 +56,74 @@
     <h2>🌎 Travel Quiz!</h2>
 
     <div class="quiz-question">
-        <p><strong>1. Which country is famous for sushi and Mount Fuji?</strong></p>
+        <p>
+            <strong>
+                1. Which country is famous for sushi and Mount Fuji?
+            </strong>
+        </p>
 
-        <button onclick="checkAnswer(1, 'Denmark')">🇩🇰 Denmark</button>
-        <button onclick="checkAnswer(1, 'Japan')">🇯🇵 Japan</button>
-        <button onclick="checkAnswer(1, 'Mexico')">🇲🇽 Mexico</button>
+        <button onclick="checkAnswer(1, 'Denmark')">
+            🇩🇰 Denmark
+        </button>
+
+        <button onclick="checkAnswer(1, 'Japan')">
+            🇯🇵 Japan
+        </button>
+
+        <button onclick="checkAnswer(1, 'Mexico')">
+            🇲🇽 Mexico
+        </button>
 
         <p id="result1"></p>
     </div>
 
     <div class="quiz-question">
-        <p><strong>2. Which country is known for smørrebrød and Copenhagen?</strong></p>
+        <p>
+            <strong>
+                2. Which country is known for smørrebrød and Copenhagen?
+            </strong>
+        </p>
 
-        <button onclick="checkAnswer(2, 'Denmark')">🇩🇰 Denmark</button>
-        <button onclick="checkAnswer(2, 'Japan')">🇯🇵 Japan</button>
-        <button onclick="checkAnswer(2, 'Mexico')">🇲🇽 Mexico</button>
+        <button onclick="checkAnswer(2, 'Denmark')">
+            🇩🇰 Denmark
+        </button>
+
+        <button onclick="checkAnswer(2, 'Japan')">
+            🇯🇵 Japan
+        </button>
+
+        <button onclick="checkAnswer(2, 'Mexico')">
+            🇲🇽 Mexico
+        </button>
 
         <p id="result2"></p>
     </div>
 
     <div class="quiz-question">
-        <p><strong>3. Which country is famous for tacos and ancient Mayan ruins?</strong></p>
+        <p>
+            <strong>
+                3. Which country is famous for tacos and ancient Mayan ruins?
+            </strong>
+        </p>
 
-        <button onclick="checkAnswer(3, 'Denmark')">🇩🇰 Denmark</button>
-        <button onclick="checkAnswer(3, 'Japan')">🇯🇵 Japan</button>
-        <button onclick="checkAnswer(3, 'Mexico')">🇲🇽 Mexico</button>
+        <button onclick="checkAnswer(3, 'Denmark')">
+            🇩🇰 Denmark
+        </button>
+
+        <button onclick="checkAnswer(3, 'Japan')">
+            🇯🇵 Japan
+        </button>
+
+        <button onclick="checkAnswer(3, 'Mexico')">
+            🇲🇽 Mexico
+        </button>
 
         <p id="result3"></p>
     </div>
+
+    <footer>
+        <p>✈️ Thanks for visiting my travel website! 🌸</p>
+    </footer>
 
     <script>
         function checkAnswer(question, answer) {
@@ -108,8 +150,3 @@
 </body>
 
 </html>
-
-<footer>
-    <p>✈️ Thanks for visiting my travel website! 🌸</p>
-</footer>
-
