@@ -1,2 +1,6 @@
- color: rgb(111, 111, 156);
-  color:rgb(241, 207, 241)
+ body {
+  color: rgb(179, 66, 158);
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
