@@ -19,6 +19,7 @@ body {
     padding: 30px;
 }
 
+/* Food popup */
 #popup {
     display: none;
     padding: 20px;
@@ -26,4 +27,32 @@ body {
     background-color: white;
     color: black;
     margin-top: 20px;
+}
+
+/* Flying airplane */
+.airplane {
+    position: fixed;
+    top: 80px;
+    left: -60px;
+    font-size: 40px;
+    animation: fly 12s linear infinite;
+    z-index: 1000;
+}
+
+@keyframes fly {
+    0% {
+        left: -60px;
+        top: 80px;
+        transform: rotate(10deg);
+    }
+
+    50% {
+        top: 160px;
+    }
+
+    100% {
+        left: 100%;
+        top: 100px;
+        transform: rotate(10deg);
+    }
 }
