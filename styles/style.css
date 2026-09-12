@@ -1,6 +1,7 @@
- body {
-  color: rgb(179, 66, 158);
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 20px;
+body {
+    background-color: lightblue;
+    color: rgb(179, 66, 158);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
