@@ -1,5 +1,5 @@
-#Travel Destinations
-#Travel Food 
-#Travel Scenery 
-#Places I Have Been
-#Travel Ratings
+# Travel Destinations
+
+## Food, scenery, and Places I have Been
+
+This webpage is about my travel experiences. I will share places I have visited, food I have tried, beautiful views, and my ratings of different destinations. 
