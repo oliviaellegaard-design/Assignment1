@@ -3,3 +3,14 @@ body {
     color: #e7e4e4;
     font-family: 'Times New Roman', Times, serif
 }
+{
+    border: 15px solid transparent;
+    border-image: repeating-linear-gradient(
+        45deg,
+        pink,
+        white 10px,
+        pink 20px
+    ) 20;
+
+    padding: 30px;
+}
