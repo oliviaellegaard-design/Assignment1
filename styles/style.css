@@ -1,3 +1,4 @@
+```css
 nav {
     background-color: #ffd6e7;
     padding: 15px;
@@ -28,3 +29,17 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 }
+
+.about-content {
+    max-width: 900px;
+    min-height: 500px;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: rgba(255, 214, 231, 0.9);
+    border-radius: 20px;
+    font-size: 22px;
+    line-height: 1.8;
+    color: rgba(255, 214, 231, 0.9);
+}
+```
+
