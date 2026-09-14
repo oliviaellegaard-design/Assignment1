@@ -1,153 +1,55 @@
-body {
-    background-color: rgb(231, 177, 216);
-    background-image: url("../images/flowers.png");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+```html
+<!DOCTYPE html>
 
-    color: #e7e4e4;
-    font-family: 'Times New Roman', Times, serif;
+<html>
 
-    border: 15px solid transparent;
-    border-image: repeating-linear-gradient(
-        45deg,
-        pink,
-        white 10px,
-        pink 20px
-    ) 20;
+<head>
+    <title>My Travel Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
 
-    padding: 30px;
-}
+<body>
 
-/* Food popup */
-#popup {
-    display: none;
-    padding: 20px;
-    border: 1px solid black;
-    background-color: white;
-    color: black;
-    margin-top: 20px;
-}
+    <div class="airplane">✈️</div>
 
-/* Flying airplane */
-.airplane {
-    position: fixed;
-    top: 80px;
-    left: -60px;
-    font-size: 40px;
-    animation: fly 12s linear infinite;
-    z-index: 1000;
-}
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="info.html">Info</a></li>
+        </ul>
+    </nav>
 
-@keyframes fly {
-    0% {
-        left: -60px;
-        top: 80px;
-        transform: rotate(10deg);
-    }
+    <header>
+        <h1>Welcome to My Travel Website</h1>
+    </header>
 
-    50% {
-        top: 160px;
-    }
+    <p>
+        Welcome to my travel website! Here you can learn about some of my
+        favorite travel destinations and the different foods I have enjoyed
+        from around the world.
+    </p>
 
-    100% {
-        left: 100%;
-        top: 100px;
-        transform: rotate(10deg);
-    }
-}
+    <div class="flower-frame">
+        <img src="images/Screenshot_20260910_171717_Messenger.webp"
+             alt="Travel destination">
+    </div>
 
-/* Flower picture frame */
-.flower-frame {
-    display: inline-block;
-    padding: 15px;
-    margin: 20px;
-    background-color: #ffd6e7;
-    border: 12px solid transparent;
-    border-radius: 20px;
+    <h2>Explore My Website</h2>
 
-    box-shadow:
-        0 0 0 5px white,
-        0 0 20px pink;
-}
+    <h3>✈️ Travel With Me</h3>
 
-.flower-frame::before {
-    content: "🌸 🌷 🌼 🌸 🌷 🌼 🌸";
-    display: block;
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 8px;
-}
+    <p>
+        Learn about Copenhagen, Japan, and Mexico and some of the
+        interesting things to see and do in each place.
+    </p>
 
-.flower-frame::after {
-    content: "🌼 🌸 🌷 🌼 🌸 🌷 🌼";
-    display: block;
-    text-align: center;
-    font-size: 25px;
-    margin-top: 8px;
-}
+    <p>
+        <a href="destinations.html">Explore Travel With Me</a>
+    </p>
 
-.flower-frame img {
-    display: block;
-    max-width: 100%;
-    border: 5px solid white;
-    border-radius: 10px;
-}
+    <h3>🍜 Travel Food</h3>
 
-/* Interactive travel map */
-.travel-map {
-    position: relative;
-    width: 700px;
-    max-width: 90%;
-    height: 350px;
-    margin: 30px auto;
-
-    background-color: #cceeff;
-    border: 8px solid pink;
-    border-radius: 25px;
-
-    background-image:
-        radial-gradient(circle at 25% 40%, #9edb9e 0 12%, transparent 13%),
-        radial-gradient(circle at 45% 30%, #9edb9e 0 14%, transparent 15%),
-        radial-gradient(circle at 70% 38%, #9edb9e 0 15%, transparent 16%),
-        radial-gradient(circle at 60% 70%, #9edb9e 0 10%, transparent 11%);
-}
-
-.map-pin {
-    position: absolute;
-    font-size: 30px;
-    background-color: white;
-    border: 3px solid pink;
-    border-radius: 50%;
-    padding: 8px;
-    cursor: pointer;
-}
-
-.map-pin:hover {
-    transform: scale(1.2);
-}
-
-.denmark {
-    top: 70px;
-    left: 45%;
-}
-
-.japan {
-    top: 120px;
-    right: 8%;
-}
-
-.mexico {
-    top: 180px;
-    left: 12%;
-}
-
-#mapMessage {
-    text-align: center;
-    background-color: white;
-    color: black;
-    padding: 15px;
-    border-radius: 12px;
-    max-width: 600px;
-    margin: 15px auto;
-}
+    <p>
+        Learn about some of the
+```

@@ -1,152 +1,21 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>My Travel Website</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-
 <body>
 
     <div class="airplane">✈️</div>
 
     <nav>
-        <a href="index.html">🏠 Home</a>
-        <a href="destinations.html">✈️ Travel With Me</a>
-        <a href="food.html">🍜 Food</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="info.html">Info</a></li>
+      </ul>
     </nav>
 
-    <h1>Welcome to My Travel Website</h1>
+    <header>
+      <h1>Welcome to My Travel Website</h1>
+    </header>
 
     <p>
         Welcome to my travel website! Here you can learn about some of my
         favorite travel destinations and the different foods I have enjoyed
         from around the world.
     </p>
-
-    <div class="flower-frame">
-        <img src="images/Screenshot_20260910_171717_Messenger.webp"
-             alt="Travel destination">
-    </div>
-
-    <h2>Explore My Website</h2>
-
-    <h3>✈️ Travel With Me</h3>
-
-    <p>
-        Learn about Copenhagen, Japan, and Mexico and some of the
-        interesting things to see and do in each place.
-    </p>
-
-    <p>
-        <a href="destinations.html">Explore Travel With Me</a>
-    </p>
-
-    <h3>🍜 Travel Food</h3>
-
-    <p>
-        Learn about some of the foods I have enjoyed from Denmark,
-        Japan, and Mexico.
-    </p>
-
-    <p>
-        <a href="food.html">View My Travel Food</a>
-    </p>
-
-    <h2>🌎 Travel Quiz!</h2>
-
-    <div class="quiz-question">
-        <p>
-            <strong>
-                1. Which country is famous for sushi and Mount Fuji?
-            </strong>
-        </p>
-
-        <button onclick="checkAnswer(1, 'Denmark')">
-            🇩🇰 Denmark
-        </button>
-
-        <button onclick="checkAnswer(1, 'Japan')">
-            🇯🇵 Japan
-        </button>
-
-        <button onclick="checkAnswer(1, 'Mexico')">
-            🇲🇽 Mexico
-        </button>
-
-        <p id="result1"></p>
-    </div>
-
-    <div class="quiz-question">
-        <p>
-            <strong>
-                2. Which country is known for smørrebrød and Copenhagen?
-            </strong>
-        </p>
-
-        <button onclick="checkAnswer(2, 'Denmark')">
-            🇩🇰 Denmark
-        </button>
-
-        <button onclick="checkAnswer(2, 'Japan')">
-            🇯🇵 Japan
-        </button>
-
-        <button onclick="checkAnswer(2, 'Mexico')">
-            🇲🇽 Mexico
-        </button>
-
-        <p id="result2"></p>
-    </div>
-
-    <div class="quiz-question">
-        <p>
-            <strong>
-                3. Which country is famous for tacos and ancient Mayan ruins?
-            </strong>
-        </p>
-
-        <button onclick="checkAnswer(3, 'Denmark')">
-            🇩🇰 Denmark
-        </button>
-
-        <button onclick="checkAnswer(3, 'Japan')">
-            🇯🇵 Japan
-        </button>
-
-        <button onclick="checkAnswer(3, 'Mexico')">
-            🇲🇽 Mexico
-        </button>
-
-        <p id="result3"></p>
-    </div>
-
-    <footer>
-        <p>✈️ Thanks for visiting my travel website! 🌸</p>
-    </footer>
-
-    <script>
-        function checkAnswer(question, answer) {
-            let correctAnswer;
-
-            if (question === 1) {
-                correctAnswer = "Japan";
-            } else if (question === 2) {
-                correctAnswer = "Denmark";
-            } else if (question === 3) {
-                correctAnswer = "Mexico";
-            }
-
-            if (answer === correctAnswer) {
-                document.getElementById("result" + question).innerHTML =
-                    "Correct! 🎉";
-            } else {
-                document.getElementById("result" + question).innerHTML =
-                    "Try again! ✈️";
-            }
-        }
-    </script>
-
-</body>
-
-</html>
