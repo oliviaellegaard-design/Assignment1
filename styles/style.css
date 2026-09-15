@@ -6,6 +6,22 @@ nav {
     margin-bottom: 20px;
 }
 
+nav a {
+    color: rgb(219, 137, 190);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: pink;
+    color: white;
+}
+
 header {
     background-color: pink;
     color: white;
