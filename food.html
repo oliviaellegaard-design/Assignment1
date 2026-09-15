@@ -1,76 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Travel Food</title>
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="UTF-8">
+  <title>Travel Food</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
 
-    <nav>
-        <a href="index.html">🏠 Home</a>
-        <a href="destinations.html">✈️ Travel With Me</a>
-        <a href="food.html">🍜 Food</a>
-    </nav>
+  <nav>
+    <a href="index.html">✈️ Travel With Me</a>
+    <a href="food.html">🍜 Food</a>
+    <a href="destinations.html">🌎 Destinations</a>
+    <a href="ratings.html">⭐ My Ratings</a>
+  </nav>
 
+  <header>
     <h1>🍜 Travel Food!</h1>
+  </header>
+
+  <main>
 
     <button onclick="showPopup()">Click for a Food Fact!</button>
 
-    <div id="popup">
-        <p>
-            🍜 Fun fact: Smørrebrød is a traditional Danish
-            open-faced sandwich!
-        </p>
+    <div id="popup" style="display: none;">
+      <p>
+        🍜 Fun fact: Smørrebrød is a traditional Danish
+        open-faced sandwich!
+      </p>
 
-        <button onclick="closePopup()">Close</button>
+      <button onclick="closePopup()">Close</button>
     </div>
 
     <h2>🇩🇰 Denmark</h2>
 
     <p>
-        I liked the food because it was delicious and satisfying.
-        I tried smørrebrød, Danish pastries, and other traditional
-        Danish dishes.
+      I liked the food because it was delicious and satisfying.
+      I tried smørrebrød, Danish pastries, and other traditional
+      Danish dishes.
     </p>
 
     <h2>🇯🇵 Japan</h2>
 
     <p>
-        I liked the food because it was fresh, unique, and flavorful.
-        I tried sushi, Denny's, McDonald's, and other traditional
-        Japanese foods.
+      I liked the food because it was fresh, unique, and flavorful.
+      I tried sushi, Denny's, McDonald's, and other traditional
+      Japanese foods.
     </p>
 
     <h2>🇲🇽 Mexico</h2>
 
     <p>
-        I liked the food because the food truck made warm,
-        delicious tacos, and I also enjoyed fajitas.
+      I liked the food because the food truck made warm,
+      delicious tacos, and I also enjoyed fajitas.
     </p>
 
     <div class="flower-frame">
-        <img
-            src="images/Screenshot_20260910_172018_Messenger.webp"
-            alt="Mexico food">
+      <div class="flowers">🌸 🌷 🌼 🌸 🌷 🌼 🌸</div>
+
+      <img
+        src="images/Screenshot_20260910_172018_Messenger.webp"
+        alt="Mexican food">
     </div>
 
     <div class="flower-frame">
-        <img
-            src="images/Screenshot_20260910_172032_Messenger.webp"
-            alt="Mexico food">
+      <div class="flowers">🌸 🌷 🌼 🌸 🌷 🌼 🌸</div>
+
+      <img
+        src="images/Screenshot_20260910_172032_Messenger.webp"
+        alt="Mexican food">
     </div>
 
-    <script>
-        function showPopup() {
-            document.getElementById("popup").style.display = "block";
-        }
+  </main>
 
-        function closePopup() {
-            document.getElementById("popup").style.display = "none";
-        }
-    </script>
+  <footer>
+    <p>&copy; 2026 Olivia Ellegaard. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function showPopup() {
+      document.getElementById("popup").style.display = "block";
+    }
+
+    function closePopup() {
+      document.getElementById("popup").style.display = "none";
+    }
+  </script>
 
 </body>
 
