@@ -50,6 +50,7 @@ h2 {
 }
 
 /* Homepage flower photo box */
+
 .flower-box {
     background-color: #ffd6e7;
     border: 4px solid white;
@@ -75,6 +76,7 @@ h2 {
 }
 
 /* Places I've Been section */
+
 .travel-map {
     display: flex;
     justify-content: center;
@@ -87,9 +89,49 @@ h2 {
     background-color: #ffd6e7;
     border: 4px solid rgb(219, 137, 190);
     border-radius: 20px;
-    padding: 20px;
-    width: 300px;
+    padding: 35px;
+    width: 700px;
+    max-width: 85%;
     text-align: center;
+    margin: 35px auto;
+}
+
+.place-card h2 {
+    font-size: 38px;
+}
+
+.place-card h3 {
+    font-size: 30px;
+    color: rgb(219, 137, 190);
+}
+
+.place-card p {
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.place-card img {
+    width: 100%;
+    height: auto;
+    border: 4px solid white;
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Bigger bullet points */
+
+.place-card ul {
+    font-size: 30px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.place-card li {
+    display: list-item;
+    list-style-type: disc;
+    font-size: 30px;
+    margin: 10px 0;
 }
 
 .map-pin {
@@ -108,22 +150,14 @@ h2 {
     color: white;
 }
 
-.place-card img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    border: 4px solid white;
-    border-radius: 15px;
-    display: block;
-}
-
 #mapMessage {
-    font-size: 24px;
+    font-size: 26px;
     text-align: center;
     color: rgb(219, 137, 190);
 }
 
 /* Flying airplane */
+
 .airplane {
     position: fixed;
     top: 120px;
